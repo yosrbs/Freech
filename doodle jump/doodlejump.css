@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(186, 110, 189, 0.849),#eec253);
+}
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url('background.png');
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .doodler {
+    width: 87px;
+    height: 85px;
+    background-image: url('doodler-guy.png');
+    position: absolute;
+  }
+  
+  .platform {
+    width: 85px;
+    height: 15px;
+    background-image: url('platform.png');
+    position: absolute;
+  }
